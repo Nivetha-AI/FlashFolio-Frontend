@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API = axios.create({ baseURL: process.env.SERVER_URL });
+const API = axios.create({ baseURL: 'https://server-side-hp44.onrender.com' });
 
 API.interceptors.request.use((req) => {
 
